@@ -5,6 +5,7 @@ turboLogger("Estou aprendendo o fluxo do git", "red");
 turboLogger("Eu consegui criar uma nova mensagem sem afetar a versão principal do meu sistema!", "darkgreen");
 turboLogger("Opa! Gustavo dev fez uma atualização no código... Se liga!", "white");
 
+<<<<<<< HEAD
 // git init -> inicia o git localmente (cria um repositório local que guarda o histórico de evolução do projeto).
 // git status -> mostra o status da branch atual.
 // git push -> envia as alterações para o repositório remoto no github.
@@ -16,3 +17,6 @@ turboLogger("Opa! Gustavo dev fez uma atualização no código... Se liga!", "wh
 
 // ordem correta: git add . -> git commit -> git push 
 turboLogger("Mais uma mensagem!", "black");
+=======
+turboLogger("Logger adicionado pela branch update_system_messages", "orange");
+>>>>>>> update_system_messages
